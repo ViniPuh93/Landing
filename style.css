@@ -146,7 +146,6 @@ b {
 }
 .members{
     display: flex;
-    width: 1219px;
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
