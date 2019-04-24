@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+.cap_fixed {
+    height: 84px;
+}
+
+.cap_fixed {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    background: #007765;
+    display: flex;
+}
+
+.fixed_content {
+    width: 1219px;
+    padding: 0px 55px 0px 55px;
+    margin:  auto;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.cap {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links>a,
+b {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.piper_net_is_here {
+    height: 403px;
+    background: url(img/content1.png);
+    display: flex;
+}
+
+.piper_net_is_here>.fixed_content>p {
+    margin: auto;
+    font-size: 74px;
+    color: #ffffff;
+}
+
+.the_problem {
+    height: 719px;
+    background: #EEEEEE;
+    display: flex;
+}
+
+.the_problem>.fixed_content {
+    height: 579px;
+    flex-direction: column;
+}
+
+.the_problem>.fixed_content>h2,p {
+    margin: auto;
+}
+
+.the_problem>.fixed_content>h2 {
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765
+}
+
+.the_problem>.fixed_content>p {
+    font-size: 32px;
+}
+
+.the_problem>.fixed_content>p>span {
+    font-weight: bold;
+}
+
+.together {
+    height: 483px;
+    background: url(img/content2.png);
+    display: flex;
+}
+
+.together>.fixed_content {
+    height: 228px;
+}
+
+.together>.fixed_content>p {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pied_piper_coin {
+    height: 604px;
+    background: #ffffff;
+    display: flex;
+
+}
+
+.pied_piper_coin>.fixed_content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pied_piper_coin>.fixed_content>h2 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+    flex-basis: 1219px;
+    text-align: center;
+}
+
+.pied_piper_coin>.fixed_content>.logo {
+    flex-basis: 115px;
+}
+
+.pied_piper_coin>.fixed_content>.paragraph1 {
+    font-size: 32px;
+    flex-basis: 930px;
+}
+.pied_piper_coin>.fixed_content>.paragraph2 {
+    font-size: 32px;
+    margin-top: 40px;
+    flex-basis: 1110px;
+}
+.the_team{
+    background: #EEEEEE;
+    height: 845px;
+    Display: flex;
+}
+.the_team>.fixed_content{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid red; 
+}
+.the_team>.fixed_content>h2{
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+.members{
+    display: flex;
+    width: 1219px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+/* Без box-sizing текст упирается в рамки + нужны padding */
+.member{ 
+    box-sizing: border-box;
+    flex-basis: 300px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.member-name{
+    color: #007765;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.member-role{
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer { 
+    display: flex;
+    background: #333333;
+    height: 176px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.footer-container{
+    flex-basis: 540px;
+    text-align: center;
+}
