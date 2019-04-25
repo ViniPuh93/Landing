@@ -4,7 +4,7 @@ body {
 
 header,
 .cap_fixed {
-    height: 84px;
+    min-height: 84px;
 }
 
 .cap_fixed {
@@ -37,7 +37,7 @@ b {
 }
 
 .piper_net_is_here {
-    height: 403px;
+    min-height: 403px;
     background: url(img/content1.png);
     display: flex;
 }
@@ -49,13 +49,13 @@ b {
 }
 
 .the_problem {
-    height: 719px;
+    min-height: 719px;
     background: #EEEEEE;
     display: flex;
 }
 
 .the_problem>.fixed_content {
-    height: 579px;
+    min-height: 579px;
     flex-direction: column;
 }
 
@@ -78,13 +78,13 @@ b {
 }
 
 .together {
-    height: 483px;
+    min-height: 483px;
     background: url(img/content2.png);
     display: flex;
 }
 
 .together>.fixed_content {
-    height: 228px;
+    min-height: 228px;
 }
 
 .together>.fixed_content>p {
@@ -94,7 +94,7 @@ b {
 }
 
 .pied_piper_coin {
-    height: 604px;
+    min-height: 604px;
     background: #ffffff;
     display: flex;
 
@@ -128,7 +128,7 @@ b {
 }
 .the_team{
     background: #EEEEEE;
-    height: 845px;
+    min-height: 845px;
     Display: flex;
 }
 .the_team>.fixed_content{
@@ -175,7 +175,7 @@ b {
 footer { 
     display: flex;
     background: #333333;
-    height: 176px;
+    min-height: 176px;
     align-items: center;
     justify-content: center;
     font-size: 18px;
