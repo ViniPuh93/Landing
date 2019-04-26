@@ -113,8 +113,13 @@ b {
     text-align: center;
 }
 
-.pied_piper_coin>.fixed_content>.logo {
-    flex-basis: 10%;
+.pied_piper_coin>.fixed_content>.logo> {
+    flex-basis: 115px;
+    border: 1px solid red;  
+}
+.pied_piper_coin>.fixed_content>.logo>img{
+    width: 100%;
+    height: auto;
 }
 
 .pied_piper_coin>.fixed_content>.paragraph1 {
