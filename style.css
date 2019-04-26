@@ -21,7 +21,6 @@ header,
     margin:  auto;
     display: flex;
     box-sizing: border-box;
-
 }
 
 .cap {
@@ -103,28 +102,29 @@ b {
 .pied_piper_coin>.fixed_content {
     flex-wrap: wrap;
     justify-content: space-around;
+    border: 1px solid red;
 }
 
 .pied_piper_coin>.fixed_content>h2 {
     font-size: 64px;
     font-weight: 500;
     color: #007765;
-    flex-basis: 1219px;
+    flex-basis: 90%;
     text-align: center;
 }
 
 .pied_piper_coin>.fixed_content>.logo {
-    flex-basis: 115px;
+    flex-basis: 10%;
 }
 
 .pied_piper_coin>.fixed_content>.paragraph1 {
     font-size: 32px;
-    flex-basis: 930px;
+    flex-basis: 85%;
 }
 .pied_piper_coin>.fixed_content>.paragraph2 {
     font-size: 32px;
     margin-top: 40px;
-    flex-basis: 1110px;
+    flex-basis: 90%;
 }
 .the_team{
     background: #EEEEEE;
@@ -133,8 +133,7 @@ b {
 }
 .the_team>.fixed_content{
     flex-wrap: wrap;
-    justify-content: space-between;
-    border: 1px solid red; 
+    justify-content: space-between; 
 }
 .the_team>.fixed_content>h2{
     color: #007765;
@@ -147,9 +146,8 @@ b {
 .members{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 /* Без box-sizing текст упирается в рамки + нужны padding */
 .member{ 
