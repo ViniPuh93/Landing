@@ -98,12 +98,10 @@ header,
     display: flex;
 
 }
-
 .pied_piper_coin>.fixed_content {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 .pied_piper_coin>.fixed_content>h2 {
     font-size: 64px;
     font-weight: 500;
@@ -111,7 +109,6 @@ header,
     flex-basis: 90%;
     text-align: center;
 }
-
 .pied_piper_coin>.fixed_content>.logo {
     max-width: 10vw;
 }
@@ -119,7 +116,6 @@ header,
     width: 100%;
     height: auto;
 }
-
 .pied_piper_coin>.fixed_content>.paragraph1 {
     font-size: 32px;
     flex-basis: 85%;
@@ -130,6 +126,7 @@ header,
     margin-bottom: 92px;
     flex-basis: 95%;
 }
+
 .the_team{
     background: #EEEEEE;
     min-height: 845px;
@@ -326,7 +323,7 @@ footer {
         font-size: 38px;
     }
     .pied_piper_coin>.fixed_content>h2{
-        font-size: 48px;
+        font-size: 40px;
     }
     .pied_piper_coin>.fixed_content>.paragraph1{
         font-size: 24px;
@@ -339,5 +336,78 @@ footer {
     }
     .members {
         justify-content: center;
+    }
+    .footer-container{
+        font-size: 12px;
+        flex-basis: 90%;
+    }
+}
+
+@media all and (max-width:325px) {
+    .cap {
+        justify-content: center;
+    }
+    .logo_cap>img {
+        display: none;
+    }
+    .links>a,b {
+        font-size: 12px;  
+    }
+    .piper_net_is_here>.fixed_content>p {
+        font-size: 28px;
+    }
+    .the_problem>.fixed_content>h2 {
+        font-size: 36px;
+    }
+    .the_problem>.fixed_content>p {
+        font-size: 22px;
+        text-align: center;
+    }
+    .together>.fixed_content>p {
+        font-size: 34px;
+    }
+    .pied_piper_coin>.fixed_content>h2{
+        font-size: 32px;
+    }
+    .pied_piper_coin>.fixed_content>.logo {
+        display: none;
+    }
+    .pied_piper_coin>.fixed_content>.paragraph1{
+        font-size: 20px;
+        flex-basis: 95%;
+        text-align: center;
+    }
+    .pied_piper_coin>.fixed_content>.paragraph2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .the_team>.fixed_content>h2 {
+        font-size: 48px;
+    }
+    .members {
+        justify-content: center;
+    }
+    .member{ 
+        box-sizing: border-box;
+        flex-basis: 300px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .member-name{
+        color: #007765;
+        margin-top: 12px;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+    }
+    .member-role{
+        font-size: 16px;
+        font-style: italic;
+    }
+    .footer-container{
+        font-size: 12px;
+        flex-basis: 90%;
     }
 }
